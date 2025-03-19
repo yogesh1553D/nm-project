@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8697C4;
+            color: #333;
+        }
+
+        header {
+            background-color: #3D52A0;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+
+        nav {
+            background-color: #7091E6;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            text-align: justify;
+        }
+
+        .download-button {
+            background-color: #4A90E2;
+            color: #fff;
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            border-radius: 10px;
+            display: inline-block;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .download-button:hover {
+            background-color: #357ABD;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .section-content {
+                width: 95%;
+                padding: 1rem;
+            }
+
+            .download-button {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="photo.jpg" alt="Your Profile Picture" class="profile-picture">
+        <h1>YOGESH M.R</h1>
+        <p>Bachelor of Computer Application</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section-content">
+        <h2>About Me</h2>
+        <p>I am an undergraduate student pursuing a degree in Computer Applications, with an interest in technology and current trends. My goal is to enhance my technical knowledge and enthusiasm.</p>
+    </section>
+
+    <section id="education" class="section-content">
+        <h2>Education</h2>
+        <p>Bharadhidasan University - Bachelor of Computer Applications</p>
+        <p>Computer software College- Honours Diploma in Computer Applications</p>
+    </section>
+
+    <section id="skills" class="section-content">
+        <h2>Skills</h2>
+        <ul>
+            <li>MS-WORD</li>
+            <li>MS-EXCEL</li>
+            <li>POWER POINT</li>
+            <li>C</li>
+            <li>JAVA</li>
+            <li>PYTHON</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section-content">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="#">Portfolio Website</a></li>
+        </ul>
+    </section>
+
+    <section id="certifications" class="section-content">
+        <h2>Certifications</h2>
+        <ul>
+            <li>TNSDC - FEWD & Cloud <a href="CompletionCertificate.pdf" target="_blank" class="download-button">View Certificate</a></li>
+        </ul>
+    </section>
+
+    <section id="resume" class="section-content">
+        <h2>Resume</h2>
+        <ul>
+            <h3>RESUME</h3> <br> <a href="resume.pdf" target="_blank" class="download-button">DOWNLOAD CV</a>
+        </ul>
+    </section>
+
+
+    <section id="contact" class="section-content">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:yogeshtamil2006@gmail.com">yogeshtamil2006@gmail.com</a></p>
+        <p>Phone: +91 9688357978</p>
+        <p>Location: Nannilam,Tiruvarur dt.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 YOGESH.M.R</p>
+    </footer>
+</body>
+</html>
